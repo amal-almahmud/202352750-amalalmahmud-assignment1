@@ -49,11 +49,11 @@ textarea {
     font-size: inherit;
 }
 
-/* ========================================
+/* 
    CSS Custom Properties (Variables)
-   ======================================== */
+    */
 :root {
-    /* Colors */
+    
     --color-bg: #f5f5f5;
     --color-surface: #ffffff;
     --color-text: #1a1a2e;
@@ -68,7 +68,7 @@ textarea {
     --color-error: #d32f2f;
     --color-success: #388e3c;
 
-    /* Spacing */
+
     --space-xs: 0.25rem;
     --space-sm: 0.5rem;
     --space-md: 1rem;
@@ -77,25 +77,24 @@ textarea {
     --space-2xl: 3rem;
     --space-3xl: 4rem;
 
-    /* Layout */
+    
     --max-width: 1100px;
     --header-height: 70px;
     --border-radius: 8px;
     --border-radius-sm: 4px;
 
-    /* Shadows */
     --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.08);
     --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.1);
     --shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.12);
 
-    /* Transitions */
+    
     --transition-fast: 150ms ease;
     --transition-normal: 250ms ease;
 }
 
-/* ========================================
+/*
    Header & Navigation
-   ======================================== */
+    */
 .site-header {
     position: sticky;
     top: 0;
@@ -155,14 +154,15 @@ textarea {
     outline-offset: 2px;
 }
 
-/* ========================================
+/* 
    Hero Section
-   ======================================== */
+ */
 .hero {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
+     justify-content: center;
     padding: var(--space-3xl) var(--space-md);
     min-height: calc(100vh - var(--header-height));
     background: linear-gradient(135deg, var(--color-bg) 0%, #eef0f8 100%);
